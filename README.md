@@ -1,29 +1,68 @@
 # Fleet-Safety-Risk-Analysis
-This project analyzes large-scale truck telematics data to identify high-risk drivers, unsafe vehicle patterns, and geographic accident hotspots. The goal is to support data-driven decisions that improve fleet safety and reduce operational risk.
+his project analyzes large-scale truck telematics data to identify high-risk drivers, unsafe vehicle patterns, and geographic accident hotspots. The objective is to turn raw fleet data into actionable safety insights that help reduce risk and improve operational decision-making.
 
-🔍 Problem Statement
-Commercial trucking fleets generate massive amounts of sensor and location data. The challenge is to determine:
-Which drivers exceed a critical risk threshold
-What unsafe behaviors are most common
-Whether certain truck models contribute to higher risk
-Where geographic risk hotspots exist
+❓ Problem Statement
+
+Commercial trucking fleets generate massive volumes of sensor and GPS data. The challenge is to answer key safety questions:
+
+Which drivers exceed a critical safety risk threshold?
+
+What unsafe driving behaviors are most common?
+
+Do certain truck models contribute disproportionately to safety risk?
+
+Where are the geographic hotspots with the highest concentration of incidents?
 
 🛠 Tech Stack
-Hadoop (HDFS) – Distributed storage for large-scale telematics data
-Hive – SQL-based querying on big data
-Tableau – Data visualization and dashboarding
-
+Tool	Purpose
+Hadoop (HDFS)	Distributed storage for large-scale telematics data
+Hive	SQL-based querying and data processing on Hadoop
+Tableau	Interactive dashboards and visualization
 📊 Key Analysis
-Identified high-risk drivers (risk ≥ 7.0) and analyzed dominant unsafe behaviors such as unsafe following distance, overspeeding, and lane departures
-Discovered that risk is model-specific, not just mileage-based, highlighting certain truck models with elevated safety events
-Conducted geospatial risk analysis, revealing accident hotspots concentrated in specific cities and highway corridors
-Demonstrated that risk does not decrease with driver experience, emphasizing the need for behavior-based interventions
+🚦 Driver Risk Assessment
+
+Identified high-risk drivers (risk factor ≥ 7.0)
+
+Analyzed dominant unsafe behaviors such as:
+
+Unsafe following distance
+
+Overspeeding
+
+Lane departures
+
+Found that risk does not decrease with experience, emphasizing behavior-focused safety programs
+
+🚚 Vehicle Model Risk
+
+Determined that risk is model-specific, not purely mileage-based
+
+Highlighted certain truck models with elevated safety event rates
+
+Suggested targeted maintenance and inspections for high-risk models
+
+🌎 Geographic Risk Analysis
+
+Performed geospatial analysis to locate accident hotspots
+
+Identified high-risk cities and major freight corridors with concentrated incidents
+
+Showed that a small number of locations account for a large share of safety events
 
 💡 Recommendations
-Implement targeted retraining programs for high-risk drivers
-Introduce behavior-specific coaching instead of one-size-fits-all training
-Increase preventive maintenance for high-risk truck models
-Deploy geo-fenced alerts and route optimization in identified high-risk locations
 
-📈 Outcome
-This project shows how big data tools can transform raw fleet telematics into actionable safety strategies, helping reduce dangerous events and improve overall transportation safety.
+Implement targeted retraining for drivers exceeding risk thresholds
+
+Use behavior-specific coaching instead of one-size-fits-all training
+
+Increase preventive maintenance frequency for high-risk truck models
+
+Deploy geo-fenced safety alerts and adjust routes in high-risk areas
+
+📈 Impact
+
+This project demonstrates how big data technologies can transform fleet telematics into practical safety strategies. The approach helps organizations:
+
+✔ Reduce dangerous driving events
+✔ Prioritize high-impact safety interventions
+✔ Optimize fleet operations using data-driven insights
