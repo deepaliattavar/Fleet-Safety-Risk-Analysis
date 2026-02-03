@@ -10,9 +10,9 @@ This project analyzes large-scale truck telematics data to identify high-risk dr
 - Generate data-backed recommendations for interventions
 
 ---
-## 🔍 Key Analysis
+## Key Analysis
 
-### 🚦 Driver Risk Assessment
+### Driver Risk Assessment
 - Flagged drivers with **risk factor ≥ 7.0**
 - Analyzed frequent unsafe behaviors:
   - Unsafe following distance  
@@ -20,11 +20,11 @@ This project analyzes large-scale truck telematics data to identify high-risk dr
   - Overspeeding
 - Found that driver risk does **not decrease with experience**, suggesting behavior-specific interventions
 
-### 🚚 Vehicle Model Risk
+### Vehicle Model Risk
 - Identified specific truck models with consistently higher risk
 - Observed that risk was **not strongly correlated with mileage**, indicating model or maintenance differences
 
-### 🌍 Geographic Risk Analysis
+### Geographic Risk Analysis
 - Performed geospatial analysis to uncover **incident hotspots**
 - Found that a small number of cities and freight corridors account for many dangerous events
 
@@ -37,11 +37,8 @@ This project analyzes large-scale truck telematics data to identify high-risk dr
 
 ---
 
-## 📈 Impact
+## Impact
 
 This project demonstrates how big data frameworks can turn raw telematics into practical safety strategies. The insights guide fleet managers to focus resources on the highest-impact drivers, vehicles, and routes.
 
 ---
-
-## 📂 Repository Structure
-
